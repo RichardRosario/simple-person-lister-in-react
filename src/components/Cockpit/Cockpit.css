@@ -1,0 +1,35 @@
+
+.App h1{
+    color: green;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .Cockpit button {
+    border: 1px solid #333;
+    padding: 15px;
+    background-color: DarkGreen;
+    font:inherit;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .Cockpit button:hover {
+    background-color: goldenrod;
+    color: white;
+  }
+  
+  .Cockpit button.Red{
+    background-color: red;
+    color: white;
+  }
+  
+  .Cockpit button.Red:hover {
+    background-color: rgb(228, 24, 167);
+  }
